@@ -1,59 +1,16 @@
-.paint-by-numbers {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  height: 400px;
-  background-color: #f5f5f5;
-}
-
-.row {
-  display: flex;
-}
-
-.cell {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border: 1px solid black;
-}
-
-/* By type selector */
-.cell {
-  font-size: 36px;
-  text-align: center;
-}
-
-/* Class selector */
-.x-1 {
-  background-color: red;
-}
-
-.x-2 {
-  background-color: blue;
-}
-
-.x-3 {
-  background-color: green;
-}
-
-.x-4 {
-  background-color: yellow;
-}
-
-/* ID selector */
-#paint-by-numbers {
-  border: 2px solid black;
-}
-
-/* Relational selector */
-.row:nth-child(even) .cell:nth-child(odd),
-.row:nth-child(odd) .cell:nth-child(even) {
-  background-color: #ccc;
-}
-
-/* Combination selector */
-.row:last-child .cell:first-child {
-  background-color: black;
-}
+<!DOCTYPE html>
+    (html lang="en">
+                  <head>
+                  <meta charset="utf-8">
+                  <title>Paint by Number</title>
+                  <style>
+                  *{size: 8px ;
+                  }
+                  span.yellow{
+                            color: yellow;
+                            }
+        </style>
+        </head>
+        
+        <body>
+        zzzzzzzzzzzzzzzzzzzzzzzz<span class="yellow">xxxxxxxxxxxxxxxxxxxxxxxxx</span>zzzzzzzzzzzzzzzzzzzzzzzzzz<<br>
